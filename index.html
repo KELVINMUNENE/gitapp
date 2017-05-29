@@ -9,61 +9,25 @@
     <title>Github</title>
   </head>
   <body>
+<center><img src="image/download.png" alt="sometext"></center>
     <div class="container">
-      <div class="page-header">
-        <h1><b>Github search app</b><small>(search for usernames)</small></h1>
+      <div class="page-header">    
       </div>
 
       <form id="github-search" class="form-inline">
         <div class="form-group">
-          <label for="username">Github </label>
+          <center><label for="username">Github </label>
           <input type="text" class="form-control" id="username" placeholder="username">
           <button type="submit" class="btn btn-primary">Search</button>
+      </center>
         </div>
       </form>
+
 
       <div class="alert alert-danger" role="alert" id="error"></div>
 
     </div>
 
-    <div class="container" id="results">
-      <div class="row">
-        <div class="col-md-4">
-          <div class="panel panel-primary">
-            <div class="panel-heading">
-             <h3 class="panel-title"><span id="name" class="restart"></span></h3>
-            </div>
-            <div class="panel-body">
-              <div id="profile_picture" class="restart">
-              </div>
-              <p>
-                <img src="http://findicons.com/files/icons/2540/glyph_icons/32/location.png" alt="img-responsive" />
-                <span id="location" class="restart"></span>
-              </p>
-              <p class="text-center">
-                <span id="button-link" class="restart"></span>
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-5">
-          <div class="panel panel-default">
-            <div class="panel-heading">
-             <h3 class="panel-title">Public Repos:
-             <span class="mybadge" id="public-repos" class="restart"></span></h3>
-            </div>
-            <div class="panel-body">
-              <span id="repos" class="restart"></span>
-
-              </div>
-            </div>
-            <div class="text-center panel-footer">
-              <span id="githubRepos" class="repo2017"></span>
-            </div>
-          </div>
-        </div>
-      </div>
-  </div>
 
   </body>
 </html>

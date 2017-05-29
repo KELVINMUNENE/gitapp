@@ -1,0 +1,26 @@
+{
+  "name": "gitproject",
+  "description": "app to search github usernames",
+  "main": "index.js",
+  "authors": [
+    "kelvin munene"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "git",
+    "project",
+    "only"
+  ],
+  "homepage": "https://github.com/KELVINMUNENE/gitapp",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "bootstrap": "^3.3.7"
+  }
+}
